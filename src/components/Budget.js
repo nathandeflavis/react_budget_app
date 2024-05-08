@@ -1,9 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
-import Currency from './Currency';
 
 const Budget = (props) => {
-    const { budget, expenses, Currency } = useContext(AppContext);
+    const { budget, expenses, currency } = useContext(AppContext);
     const totalExpenses = expenses.reduce((total, item) => {
         return (total += item.cost);
     }, 0);    
@@ -14,7 +13,7 @@ const Budget = (props) => {
         let upperLimit = 20000;
 
         if(value > upperLimit) {
-            window.alert('The value cannot exceed ' + Currency + upperLimit);
+            window.alert('The value cannot exceed ' + currency[0] + upperLimit);
             return;
         }
 
@@ -29,7 +28,7 @@ const Budget = (props) => {
     }
     return (
         <div className='alert alert-secondary'>
-            <span>Budget: {Currency}</span>
+            <span>Budget: {currency[0]}</span>
             <input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
         </div>
     );
