@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 
 const Budget = (props) => {
-    const { budget, expenses, currency } = useContext(AppContext);
+    const { budget, expenses, currency, dispatch } = useContext(AppContext);
     const totalExpenses = expenses.reduce((total, item) => {
         return (total += item.cost);
     }, 0);    
@@ -23,6 +23,11 @@ const Budget = (props) => {
             window.alert('You cannot reduce the budget value lower than the spending');
             return;
         }
+
+        dispatch({
+            type: 'SET_BUDGET',
+            payload: value
+        });
 
         setNewBudget(value);
     }
