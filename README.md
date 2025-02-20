@@ -1,6 +1,8 @@
 # react_budget_app
 A budget allocation application (Final Project in [Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react) course, part of [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)).
 
+<img width="1315" alt="react_budget_app" src="https://github.com/user-attachments/assets/a59c7a8b-f941-4056-b503-01a99a69c6f9" />
+
 # What does the project do?
 ## Overview
 The project is an application front end to allow a fictional company to plan for budgeting expenses for various departments.
