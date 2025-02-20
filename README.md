@@ -2,6 +2,7 @@
 A budget allocation application (Final Project in [Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react) course, part of [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)).
 
 <img width="1315" alt="react_budget_app" src="https://github.com/user-attachments/assets/a59c7a8b-f941-4056-b503-01a99a69c6f9" />
+React budget app in Apple macOS Safari.
 
 # What does the project do?
 ## Overview
