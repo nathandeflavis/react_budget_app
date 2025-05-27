@@ -1,6 +1,10 @@
 # react_budget_app
 A budget allocation application ('Final Project' in [Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react) course, part of [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)).
 
+<img width="1315" alt="react_budget_app" src="https://github.com/user-attachments/assets/204bdd4a-5cee-47f1-82cf-76d5518654c0" />
+
+App in Apple macOS Safari.
+
 # What does the project do?
 ## Overview
 The project is an application front end to allow a fictional company to plan for budgeting expenses for various departments.
@@ -32,7 +36,7 @@ You can run the application in [an IBM Skills Network lab environment](https://s
 ## Steps
 ### Part A: Git clone the Git repository
 1. Open a terminal window by using the menu in the editor: Terminal > New Terminal.
-2. Clone this repository: `git clone https://github.com/nathangjdf/react_budget_app.git`
+2. Clone this repository: `git clone https://github.com/nathandeflavis/react_budget_app.git`
 3. Change to the project directory: `cd react_budget_app`
 4. Run npm install -s, to install and save required packages: `npm install -s`
 
@@ -47,6 +51,6 @@ You can run the application in [an IBM Skills Network lab environment](https://s
 Users can contact the project's maintainers and contributors for help.
 
 # Who maintains and contributes to the project?
-@nathangjdf
+@nathandeflavis
 
 README adapted from [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
